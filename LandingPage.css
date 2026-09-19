@@ -163,3 +163,15 @@ footer {
 .footer-social span {
     margin-right: 20px;
 }
+
+@media (max-width: 768px) {
+    section { padding: 40px 20px; }
+
+    .story, .campus-grid, .transparency-grid {
+        flex-direction: column;
+    }
+
+    .story-img, .story-text, .campus-grid img, .t-box {
+        width: 100%;
+    }
+}
